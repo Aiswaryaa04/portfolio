@@ -1,3 +1,5 @@
+import Navbar from "../components/Navbar";
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 dark:bg-[#060b14] dark:text-white">
