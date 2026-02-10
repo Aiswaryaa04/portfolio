@@ -102,29 +102,10 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* EXPERIENCE */}
-      <section id="experience" className="mx-auto max-w-6xl px-5 py-14 scroll-mt-24">
-        <h2 className="text-xl font-semibold mb-4">Experience</h2>
-        <p className="text-neutral-600 dark:text-white/70">
-          Next step: we’ll convert this into Neha-style stacked cards.
-        </p>
-      </section>
+      <StackedCards id="experience" title="Experience" cards={experience} />
+      <StackedCards id="projects" title="Projects" cards={projects} />
+      <StackedCards id="skills" title="Skills" cards={skills} />
 
-      {/* PROJECTS */}
-      <section id="projects" className="mx-auto max-w-6xl px-5 py-14 scroll-mt-24">
-        <h2 className="text-xl font-semibold mb-4">Projects</h2>
-        <p className="text-neutral-600 dark:text-white/70">
-          Next step: we’ll convert this into Neha-style stacked cards.
-        </p>
-      </section>
-
-      {/* SKILLS */}
-      <section id="skills" className="mx-auto max-w-6xl px-5 py-14 scroll-mt-24">
-        <h2 className="text-xl font-semibold mb-4">Skills</h2>
-        <p className="text-neutral-600 dark:text-white/70">
-          Next step: we’ll convert this into Neha-style stacked cards.
-        </p>
-      </section>
 
       {/* EDUCATION */}
       <section id="education" className="mx-auto max-w-6xl px-5 py-14 scroll-mt-24">
