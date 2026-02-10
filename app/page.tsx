@@ -1,6 +1,47 @@
 import Navbar from "../components/Navbar";
 import StackedCards, { type StackCard } from "../components/StackedCards";
 
+const experience: StackCard[] = [
+  {
+    title: "Company • Role",
+    meta: "2024 — Present",
+    body: ["Impact bullet 1", "Impact bullet 2", "Tech: SQL, Python, Automation"],
+    tags: ["SQL", "Python", "Automation"],
+  },
+  {
+    title: "Company • Role",
+    meta: "2022 — 2024",
+    body: ["Impact bullet 1", "Impact bullet 2"],
+    tags: ["RPA", "APIs"],
+  },
+];
+
+const projects: StackCard[] = [
+  {
+    title: "Project Name",
+    meta: "GitHub • Demo",
+    body: ["What it is", "Tech used", "Result/impact"],
+    tags: ["Next.js", "Python", "LLM"],
+  },
+  {
+    title: "Project Name 2",
+    body: ["What it is", "Tech used", "Result/impact"],
+    tags: ["Tableau", "SQL"],
+  },
+];
+
+const skills: StackCard[] = [
+  {
+    title: "Core",
+    body: ["SQL • Python • APIs", "React / Next.js", "Tableau / Power BI"],
+  },
+  {
+    title: "Tools",
+    body: ["Git • Docker", "Cloud basics", "Automation tooling"],
+  },
+];
+
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 dark:bg-[#060b14] dark:text-white">
