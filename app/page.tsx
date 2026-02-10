@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import StackedCards, { type StackCard } from "../components/StackedCards";
 
 export default function HomePage() {
   return (
