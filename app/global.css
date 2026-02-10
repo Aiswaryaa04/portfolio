@@ -148,3 +148,33 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.stack-space {
+  height: 110vh; /* controls how long the section scrolls */
+}
+
+.stack-stage {
+  position: sticky;
+  top: 96px; /* leaves room for your sticky navbar */
+}
+
+.stack-frame {
+  position: relative;
+  height: 520px; /* card stage height */
+}
+
+.stack-card {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.95);
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.dark .stack-card {
+  border-color: rgba(255,255,255,0.10);
+  background: rgba(11,18,32,0.95);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
+}
