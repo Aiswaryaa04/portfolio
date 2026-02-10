@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 dark:bg-[#060b14] dark:text-white">
+      <Navbar />
       {/* HERO */}
       <section id="top" className="mx-auto max-w-6xl px-5 pt-16 pb-10">
         <div className="grid md:grid-cols-2 gap-10 items-center">
